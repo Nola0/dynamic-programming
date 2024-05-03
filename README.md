@@ -1,0 +1,3 @@
+Mahjong is a popular 4-player zero sum game in Asia. It is a complicated game as it involves stochastic processes, imperfect information, and high state dimensionality. Various approaches such as tile efficiency (Rosti, 2018), tabu search (Yoshimura, Hochin & Nomiya, 2016), and deep learning (Zhao & Holden, 2022) have been used to derive the optimal strategy.
+
+A simplified one-player mahjong game will be introduced, which hopes to reduce the dimensionality while retaining the gist of the original mahjong game. Dynamic programming is used to find the optimal strategy which maximizes the chance of winning within the remaining rounds, for any given combination and number of rounds remaining.
